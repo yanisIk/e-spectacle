@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Espectacles">
+		<class>ca.etsmtl.gti525.espectacles.domain.AbstractProduit</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Billet</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Client</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Facture</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Guest</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Paiement</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Panier</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Produit</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.ProduitCommande</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Representation</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Salle</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.Spectacle</class>
+		<class>ca.etsmtl.gti525.espectacles.domain.User</class>
+	</persistence-unit>
+</persistence>
